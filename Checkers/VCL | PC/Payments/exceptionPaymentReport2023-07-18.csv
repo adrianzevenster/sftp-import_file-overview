@@ -1,0 +1,4 @@
+msisdn,advanceId,externalref,transacionId,paymentdate,amount,reason
+26659992246,,,00ZXAIOX7Y7M,2023-07-18 01:18:07,13.29,Payment has been allocated to the wrong advance
+26659040149,1090435,01BT86PFXQ83,01BT8C0DN7UO,2023-07-18 20:52:33,10.11,Missing in reconciliation
+26659050586,1104627,01B3I610568E,01B3IAU6JV5Q,2023-07-18 20:55:58,7.40,Missing in reconciliation

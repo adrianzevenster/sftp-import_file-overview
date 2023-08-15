@@ -1,0 +1,90 @@
+exceptionAdvanceReport2022-08-08.csv
+msisdn,advanceId,externalref,advancedate,amount,reason
+26659113394,,9H84RAOY3G,2022-08-08 13:39:29,20.0,Advance missing in Airvantage
+26659024740,38502,9GN0QXUHL8,2022-07-23 14:14:20,-6.50,Advance has been overpaid
+26657404365,50325,9GU2R3DBT4,2022-07-30 17:52:24,-7.00,Advance has been overpaid
+26658860737,57035,9H43R7TLF9,2022-08-04 16:46:42,-0.20,Advance has been overpaid
+26659671512,7999,9GE9QR4RNR,2022-07-14 11:18:28,-23.00,Advance has been overpaid
+26658060367,48748,9GT5R2EB15,2022-07-29 16:06:04,-23.00,Advance has been overpaid
+26659443690,51416,9GV9R3ZNI3,2022-07-31 14:50:06,-23.00,Advance has been overpaid
+
+
+exceptionPaymentReport2022-08-08.csv
+msisdn,advanceId,externalref,transacionId,paymentdate,amount,reason
+26659024740,38502,9GN0QXUHL8,9H81RAO1IV,2022-08-08 13:09:00,16.00,Payment is not balanced
+26656640907,56776,9H43R7OH3F,9H85RANV2R,2022-08-08 13:02:54,55.50,Payment is not balanced
+26657729188,45914,9GR0R0WHG8,9H91RBOI83,2022-08-09 18:27:32,4.50,Payment is not balanced
+
+
+"""
+12 -15 Aug
+
+"""
+
+exceptionAdvanceReport2022-08-12.csv
+msisdn,advanceId,externalref,advancedate,amount,reason
+26653764724,,9HD9RE7EMF,2022-08-13 12:58:21,10.0,Advance missing in Airvantage
+26651881384,48505,9GT5R28Z21,2022-07-29 13:24:21,-11.50,Advance has been overpaid
+26653628167,65063,9HA7RC3F8R,2022-08-10 12:45:20,-23.00,Advance has been overpaid
+26658395290,63563,9H91RBBIRH,2022-08-09 11:35:45,-11.50,Advance has been overpaid
+26653470470,48414,9GT3R2704D,2022-07-29 12:30:02,-11.50,Advance has been overpaid
+26653470470,48413,9GT4R26ZK4,2022-07-29 12:29:09,-12.00,Advance has been overpaid
+26653470470,38358,9GN4QXS8OK,2022-07-23 13:09:12,-1.00,Advance has been overpaid
+26653470470,44067,9GQ5R01SHR,2022-07-26 16:53:54,-23.00,Advance has been overpaid
+26659555352,17612,9GF5QSEFTX,2022-07-15 18:14:23,-11.50,Advance has been overpaid
+26653077572,47551,9GS2R1PVRG,2022-07-28 18:31:38,-3.20,Advance has been overpaid
+26656028955,61525,9H71RA9CV7,2022-08-07 19:26:34,-11.50,Advance has been overpaid
+
+"""
+27 Aug (16 th)
+"""
+
+insertMissingPayments.log
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,152845,1,'2022-09-26 12:07:17', '9IQ6SCAIAI',11.5, '2022-09-27 08:32:05', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 12:07:17' ,comment = 'updated' WHERE (`advanceid` = 152845);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,76919,1,'2022-09-26 12:14:10', '9IQ8SCAPN0',60.28, '2022-09-27 08:32:05', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 12:14:10' ,comment = 'updated' WHERE (`advanceid` = 76919);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,41693,1,'2022-09-26 10:33:19', '9IQ8SC7XR6',26.27, '2022-09-27 08:32:05', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 10:33:19' ,comment = 'updated' WHERE (`advanceid` = 41693);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,52506,1,'2022-09-26 15:48:01', '9IQ4SCGISC',11.14, '2022-09-27 08:32:05', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 15:48:01' ,comment = 'updated' WHERE (`advanceid` = 52506);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,146047,1,'2022-09-26 14:55:30', '9IQ5SCF3D9',11.5, '2022-09-27 08:32:05', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 14:55:30' ,comment = 'updated' WHERE (`advanceid` = 146047);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,102835,1,'2022-09-26 15:09:07', '9IQ0SCFG4U',21.99, '2022-09-27 08:32:06', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 15:09:07' ,comment = 'updated' WHERE (`advanceid` = 102835);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,116041,1,'2022-09-26 15:50:33', '9IQ5SCGKU9',23.0, '2022-09-27 08:32:06', '2', '1', '1','manual - overclaw',5);
+|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-26 15:50:33' ,comment = 'updated' WHERE (`advanceid` = 116041);
+
+'''
+28 September (27th)
+'''
+
+insertMissingPayments.log
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,150346,1,'2022-09-27 12:54:37', '9IR8SD4GS4',11.5, '2022-09-28 08:38:46', '2', '1', '1','manual - overclaw',5);|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-27 12:54:37' ,comment = 'updated' WHERE (`advanceid` = 150346);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,111556,1,'2022-09-27 17:22:12', '9IR6SDBU7W',23.05, '2022-09-28 08:38:46', '2', '1', '1','manual - overclaw',5);|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-27 17:22:12' ,comment = 'updated' WHERE (`advanceid` = 111556);
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,119158,1,'2022-09-27 19:12:59', '9IR2SDGAKU',57.43, '2022-09-28 08:38:46', '2', '1', '1','manual - overclaw',5);|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-27 19:12:59' ,comment = 'updated' WHERE (`advanceid` = 119158);
+
+insertPartialPayments.log
+|
+|
+INSERT INTO `av_microservice_finance`.`payment` VALUES (0,111976,1,'2022-09-27 13:11:19', '9IR6SD4W3G',1.04, '2022-09-28 08:38:47', '2', '1', '1','manual - overclaw',5);|UPDATE `av_microservice_finance`.`advance` SET `statusid` = '4', repaydate = '2022-09-27 13:11:19' ,comment = 'updated' WHERE (`advanceid` = 111976);

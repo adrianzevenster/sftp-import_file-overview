@@ -1,0 +1,23 @@
+msisdn,advanceId,externalref,transacionId,paymentdate,amount,reason
+26651869863,,,08LBW0DN7YGL,2023-05-12 00:18:30,23.0,Payment has been allocated to the wrong advance
+26658592979,,,07S6P3UCGI4J,2023-05-12 00:25:16,24.15,Payment has been allocated to the wrong advance
+26658592979,,,07S6P3UCGDKL,2023-05-12 00:25:08,24.15,Payment has been allocated to the wrong advance
+26651984574,,,08VZEBB4HZ8B,2023-05-12 00:07:38,23.0,Payment has been allocated to the wrong advance
+26656478394,,,00ZXAA25H7E8,2023-05-12 00:27:21,7.69,Payment has been allocated to the wrong advance
+26657401210,,,00GQNPHYMW6U,2023-05-12 00:27:33,24.15,Payment has been allocated to the wrong advance
+26658060367,,,0841UUXZ73UP,2023-05-12 00:21:14,23.0,Payment has been allocated to the wrong advance
+26658060367,,,0841UUXZ75CT,2023-05-12 00:21:22,8.0,Payment has been allocated to the wrong advance
+26658060367,,,0841UUXZ75CU,2023-05-12 00:21:28,23.0,Payment has been allocated to the wrong advance
+26658592979,,,07S6P3UCGI4K,2023-05-12 00:25:24,12.08,Payment has been allocated to the wrong advance
+26653133361,,,003ALGJ5XX56,2023-05-12 00:28:40,20.0,Payment has been allocated to the wrong advance
+26658009232,,,07TX2189ZX95,2023-05-12 00:25:53,24.15,Payment has been allocated to the wrong advance
+26656038125,881013,ADA9WYMKIX,00ZXAAB14KBD,2023-05-14 01:00:13,12.08,Missing in reconciliation
+26656038125,882673,ADB3WZ0RHH,00ZXAAB14IXN,2023-05-14 01:00:24,12.08,Missing in reconciliation
+26650187095,890412,ADD3X0L7TX,01BAIMEPHBSN,2023-05-14 01:00:31,23.00,Missing in reconciliation
+26659153142,773369,ACG4WBMXDS,07WVUH92BBZV,2023-05-14 01:00:56,23.13,Missing in reconciliation
+26659153142,784474,ACI0WDKTV0,07WVUH92BDHK,2023-05-14 01:01:03,12.08,Missing in reconciliation
+26657277888,923890,ADL4X7B41I,0888AR4X0UWV,2023-05-14 01:01:39,11.50,Missing in reconciliation
+26659972902,888114,ADC1X05QNT,00Z23TM2CUW6,2023-05-14 01:06:11,5.69,Missing in reconciliation
+26657751133,992575,00C6YRQEYPA2,00C6YS3ROJI2,2023-05-14 01:06:51,11.50,Missing in reconciliation
+26658185448,767654,ACE4WAK7XM,08073WI5PK4H,2023-05-14 01:12:59,17.00,Missing in reconciliation
+26659168837,997273,009X4B5RB82H,009X4BA8DSGL,2023-05-14 01:14:19,57.50,Missing in reconciliation

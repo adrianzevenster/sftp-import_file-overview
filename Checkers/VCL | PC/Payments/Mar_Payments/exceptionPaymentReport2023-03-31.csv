@@ -1,0 +1,18 @@
+msisdn,advanceId,externalref,transacionId,paymentdate,amount,reason
+26657298976,,,AD12WPCRV0,2023-04-01 08:52:36,1.01,Payment missing in Airvantage
+26657256915,,,AD11WPCAED,2023-04-01 08:42:10,0.96,Payment missing in Airvantage
+26657572330,,,AD18WPF8P8,2023-04-01 09:47:27,24.15,Payment missing in Airvantage
+26657872970,,,AD15WP7L23,2023-04-01 06:25:11,59.88,Payment missing in Airvantage
+26656302610,,,AD14WPEPXK,2023-04-01 09:36:29,10.53,Payment missing in Airvantage
+26656781949,,,AD16WP8E2K,2023-04-01 06:57:46,24.15,Payment missing in Airvantage
+26657825782,,,AD19WPDV99,2023-04-01 09:17:15,60.38,Payment missing in Airvantage
+26653537825,,,AD17WP9YOX,2023-04-01 07:45:14,23.0,Payment missing in Airvantage
+26656697161,,,AD13WPANIP,2023-04-01 08:02:46,23.01,Payment missing in Airvantage
+26657231393,,,AD10WPBXTA,2023-04-01 08:33:54,0.46,Payment missing in Airvantage
+26657129740,,,AD14WPAK2U,2023-04-01 08:00:21,24.15,Payment missing in Airvantage
+26657801813,,,AD19WPB6K5,2023-04-01 08:16:15,5.35,Payment missing in Airvantage
+26657375971,,,AD19WPDTVJ,2023-04-01 09:16:32,1.2,Payment missing in Airvantage
+26657421530,,,AD13WPELXD,2023-04-01 09:33:55,24.15,Payment missing in Airvantage
+26657060231,,,AD18WP9TJY,2023-04-01 07:41:01,12.08,Payment missing in Airvantage
+26657526328,,,AD15WPEUQ3,2023-04-01 09:39:01,1.87,Payment missing in Airvantage
+26657056322,713394,AC13VY3XV1,AD15WPA1J3,2023-04-01 07:47:06,23.94,Payment is not balanced
